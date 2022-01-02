@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.text-left{
+    text-align: left;
+}
+.text-center{
+    text-align: center;
+}
+.text-right{
+    text-align: right;
+}
+.clear::after{
+    contain: " ";
+    clear: both;
+    display: block;
+}
+.left{
+    float: left;
+}
+.right{
+    float: right;
+}
+img{
+    max-width: 100%;
+}
+a{
+    text-decoration: none;
+}
+.mid-content{
+    max-width: 1300px;
+    margin: auto;
+}
+
+
+/* begin main css */
+  
+body,h1,h2,h3,h4,h5,h6,p,a,span{
+    font-family: 'Work Sans', sans-serif;
+}
+
+
+
+/* head section  */
+
+.header-section {
+	background: #fff;
+	border-bottom: 2px solid rgb(224, 205, 205);
+	height: 60px;
+}
+.header-logo{
+    width: 30%;
+}
+.logo{
+    color: blue;
+}
+span{
+
+}
+.header-menu{
+    width: 60%;
+}
+.menu-section{
+
+}
+.menu-section ul{
+
+}
+.menu-section ul li{
+    display: inline-block;
+
+}
+.menu-section ul li a{
+    display: block;
+
+
+}
+.menu-section ul li a:hover{
+
+}
+.header-btn {
+	width: 8%;
+	border: 1px solid blue;
+	display: block;
+	text-align: center;
+	border-radius: 5px;
+	margin-top: 6px;
+	font-size: 20px;
+	padding: 9px 9px;
+}
+.menu-section ul li{
+    position: relative;
+}
+.menu-section ul li ul{
+    position: absolute;
+    left: 0;
+    top: 100%;
+    width: 300px;
+    background: #fff;
+}
